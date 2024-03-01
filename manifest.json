@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Location Mute",
+  "version": "1.0",
+  "description": "Automatically mute YouTube when near predefined destinations.",
+  "permissions": ["geolocation", "activeTab"],
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
